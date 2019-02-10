@@ -21,6 +21,7 @@ public class test {
              case 1:
                 System.out.println("Введіть значення радіусу кола: ");
                 r = in.nextInt();
+                //TODO создать переменную для площади
                 System.out.println("Площа кола рівна: "+pi*r*r);
                 break;
             case 2:
