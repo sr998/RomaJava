@@ -1,16 +1,19 @@
 import java.util.Scanner; // імпорт сканера
 
-
+//TODO Название класса в Java пишем с большой буквы, методов с маленькой
 public class test {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        // TODO Создать бесконечный цикл в котором программа закончит свое выполнение только когда пользователь этого захочет (добавить ещё один case для этого)
         System.out.println("Перший урок.");
         System.out.println("Виберіть одне з наступних завдань:");
         System.out.println("1 - обчислити площу кола,по заданому радіусу");
         System.out.println("2 - обчислити гіпотенузу прямокутного трикутника з заданими катетами");
         System.out.println("3 - робота з текстом");
         System.out.println("4 - калькулятор для + і -");
+        // TODO Переменная x - должна иметь более информативное имя, например option/choice
         int x = in.nextInt();
+        //TODO Перенести переменные выше принтов (в начало программы) что бы понятнее было за что отвечает switch и переменная x
         double k1, k2, gipotenuza;
         int r, a, b;
         double pi = 3.14;
